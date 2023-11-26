@@ -235,6 +235,7 @@ body {
 @media only screen and (max-width: 768px) {
   body {
     background-color: #860a35;
+    overflow-x: hidden;
   }
 
   #nama {
