@@ -148,7 +148,7 @@ body {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 40px;
-  transition: 3s;
+  transition: 1.5s;
 }
 
 #fotobulet:hover {
@@ -158,8 +158,10 @@ body {
 
 #nama {
   text-align: center;
-  font-size: 70px;
+  font-size: 60px;
   font-family: "Montserrat", sans-serif;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 #ucapan {
@@ -167,7 +169,9 @@ body {
   font-family: "Montserrat", sans-serif;
   margin-top: 30px;
   font-size: 30px;
-  animation: 5s transY forwards;
+  animation: 3s transY forwards;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 @keyframes transY {
@@ -192,7 +196,9 @@ body {
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: 40px;
-  animation: 10s transX forwards;
+  animation: 1.5s transX backwards;
+  padding-right: 200px;
+  padding-left: 200px;
 }
 
 .judull {
@@ -206,14 +212,19 @@ body {
   margin: auto;
 }
 
+.pesan {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
 #ucapan2 {
   text-align: justify;
   font-family: "Montserrat", sans-serif;
   margin-top: 50px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 200px;
+  padding-right: 200px;
   font-size: 25px;
-  animation: 8s transY backwards;
+  animation: 3s transY backwards;
 }
 
 #reward {
@@ -222,7 +233,7 @@ body {
   height: auto;
   margin-right: auto;
   margin-left: auto;
-  transition: 6s;
+  transition: 3s;
   align-items: center;
   padding-right: 40px;
 }
@@ -249,14 +260,14 @@ body {
     font-family: "Montserrat", sans-serif;
     margin-top: 40px;
     font-size: 22px;
-    animation: 5s transY forwards;
+    animation: 3s transY forwards;
   }
 
   .judul {
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-size: 30px;
-    animation: 5s transX forwards;
+    animation: 3s transX forwards;
   }
 
   #ucapan2 {
@@ -265,7 +276,7 @@ body {
     padding-left: 30px;
     padding-right: 30px;
     font-size: 22px;
-    animation: 8s transY backwards;
+    animation: 3s transY backwards;
   }
 
   #wave1 {
@@ -294,7 +305,7 @@ body {
 
   @keyframes transX {
     from {
-      transform: translateX(70px);
+      transform: translateX(250px);
     }
     to {
       transform: translateX(0);
