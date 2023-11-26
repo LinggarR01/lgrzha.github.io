@@ -160,8 +160,8 @@ body {
   text-align: center;
   font-size: 60px;
   font-family: "Montserrat", sans-serif;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 1px;
+  padding-right: 1px;
 }
 
 #ucapan {
@@ -169,7 +169,7 @@ body {
   font-family: "Montserrat", sans-serif;
   margin-top: 30px;
   font-size: 30px;
-  animation: 3s transY forwards;
+  animation: 1s transY forwards;
   padding-left: 100px;
   padding-right: 100px;
 }
@@ -196,9 +196,9 @@ body {
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: 40px;
-  animation: 1.5s transX backwards;
-  padding-right: 200px;
-  padding-left: 200px;
+  animation: 1s transX backwards;
+  padding-right: auto;
+  padding-left: auto;
 }
 
 .judull {
@@ -224,7 +224,7 @@ body {
   padding-left: 200px;
   padding-right: 200px;
   font-size: 25px;
-  animation: 3s transY backwards;
+  animation: 1s transY backwards;
 }
 
 #reward {
@@ -233,9 +233,9 @@ body {
   height: auto;
   margin-right: auto;
   margin-left: auto;
-  transition: 3s;
+  transition: 1s;
   align-items: center;
-  padding-right: 40px;
+  padding: 0 20px 0 0;
 }
 
 #reward:hover {
@@ -267,7 +267,7 @@ body {
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-size: 30px;
-    animation: 1s transX forwards;
+    animation: 0.5s transX forwards;
   }
 
   #ucapan2 {
@@ -276,7 +276,7 @@ body {
     padding-left: 30px;
     padding-right: 30px;
     font-size: 22px;
-    animation: 1s transY backwards;
+    animation: 2s transY backwards;
   }
 
   #wave1 {
@@ -300,12 +300,12 @@ body {
     height: auto;
     margin-right: auto;
     margin-left: auto;
-    transition: 2s;
+    transition: 1s;
   }
 
   @keyframes transX {
     from {
-      transform: translateX(100px);
+      transform: translateX(250px);
     }
     to {
       transform: translateX(0);
