@@ -294,7 +294,7 @@ body {
 
   @keyframes transX {
     from {
-      transform: translateX(250px);
+      transform: translateX(100px);
     }
     to {
       transform: translateX(0);
