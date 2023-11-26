@@ -260,14 +260,14 @@ body {
     font-family: "Montserrat", sans-serif;
     margin-top: 40px;
     font-size: 22px;
-    animation: 3s transY forwards;
+    animation: 1s transY forwards;
   }
 
   .judul {
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-size: 30px;
-    animation: 3s transX forwards;
+    animation: 1s transX forwards;
   }
 
   #ucapan2 {
@@ -276,7 +276,7 @@ body {
     padding-left: 30px;
     padding-right: 30px;
     font-size: 22px;
-    animation: 3s transY backwards;
+    animation: 1s transY backwards;
   }
 
   #wave1 {
@@ -305,7 +305,7 @@ body {
 
   @keyframes transX {
     from {
-      transform: translateX(250px);
+      transform: translateX(100px);
     }
     to {
       transform: translateX(0);
