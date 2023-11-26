@@ -256,7 +256,7 @@ body {
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-size: 30px;
-    animation: 10s transX forwards;
+    animation: 5s transX forwards;
   }
 
   #ucapan2 {
@@ -294,7 +294,7 @@ body {
 
   @keyframes transX {
     from {
-      transform: translateX(100px);
+      transform: translateX(70px);
     }
     to {
       transform: translateX(0);
