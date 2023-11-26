@@ -1,0 +1,311 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+#wave1 {
+  rotate: 180deg;
+  background-color: #860a35;
+  max-width: 100%;
+  margin-top: -10px;
+}
+#wave2 {
+  background-color: #860a35;
+  max-width: 100%;
+  margin-bottom: -10px;
+  display: block;
+}
+body {
+  background-color: #860a35;
+  color: #ecee81;
+  overflow-x: hidden;
+}
+
+#fotobulet {
+  max-width: 80%;
+  border-radius: 60%;
+  height: auto;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 40px;
+  transition: 3s;
+}
+
+#fotobulet:hover {
+  transform: scale(1.1);
+  height: auto;
+}
+
+#nama {
+  text-align: center;
+  font-size: 70px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#ucapan {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 30px;
+  font-size: 30px;
+  animation: 5s transY forwards;
+}
+
+@keyframes transY {
+  from {
+    transform: translateY(80px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes transX {
+  from {
+    transform: translateX(250px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.judul {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  animation: 10s transX forwards;
+}
+
+.judull {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+}
+
+#gambarr {
+  border-radius: 20%;
+  margin: auto;
+}
+
+#ucapan2 {
+  text-align: justify;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 25px;
+  animation: 8s transY backwards;
+}
+
+#reward {
+  margin-top: 30px;
+  max-width: 100%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  transition: 6s;
+  align-items: center;
+  padding-right: 40px;
+}
+
+#reward:hover {
+  transform: scale(1.1);
+  height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: #860a35;
+  }
+
+  #nama {
+    text-align: center;
+    font-size: 38px;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  #ucapan {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 40px;
+    font-size: 22px;
+    animation: 5s transY forwards;
+  }
+
+  .judul {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    animation: 10s transX forwards;
+  }
+
+  #ucapan2 {
+    text-align: justify;
+    font-family: "Montserrat", sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 22px;
+    animation: 8s transY backwards;
+  }
+
+  #wave1 {
+    rotate: 180deg;
+    background-color: #860a35;
+    max-width: 100%;
+    margin-top: -10px;
+  }
+
+  #wave2 {
+    background-color: #860a35;
+    max-width: 100%;
+    margin-top: 100px;
+    display: block;
+    margin-bottom: -10px;
+  }
+
+  #reward {
+    margin-top: 30px;
+    max-width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    transition: 2s;
+  }
+
+  @keyframes transX {
+    from {
+      transform: translateX(250px);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes transY {
+    from {
+      transform: translateY(80px);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+}
